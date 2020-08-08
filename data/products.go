@@ -108,3 +108,13 @@ func UpdateProduct(id int, p *Product) error {
 	productList[idx] = p
 	return nil
 }
+
+func DeleteProduct(id int) error {
+	_, idx, err := findProduct(id)
+	if err != nil {
+		return err
+	}
+
+	productList = append(productList[:idx], productList[idx+1:]...)
+	return nil
+}
