@@ -4,8 +4,8 @@ import (
 	"net"
 	"os"
 
-	protos "github.com/SanjeVicor/Product-API/protos/currency"
-	"github.com/SanjeVicor/Product-API/server"
+	protos "github.com/SanjeVicor/Product-API/currency/protos/currency"
+	"github.com/SanjeVicor/Product-API/currency/server"
 	"github.com/hashicorp/go-hclog"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"

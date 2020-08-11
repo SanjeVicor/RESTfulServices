@@ -7,8 +7,7 @@ import (
 	"os"
 	"os/signal"
 	"time"
-
-	protos "github.com/SanjeVicor/Product-API/CURRENCY/protos/currency"
+	protos "github.com/SanjeVicor/Product-API/currency/protos/currency"
 	"github.com/SanjeVicor/Product-API/product-api/handlers"
 	"github.com/go-openapi/runtime/middleware"
 	gohandlers "github.com/gorilla/handlers"
@@ -20,9 +19,9 @@ func main() {
 	l := log.New(os.Stdout, "product-api : ", log.LstdFlags)
 	// create the handlers
 	ph := handlers.NewProducts(l)
-
+	
 	//Create client
-	protos.NewCurrencyClient()
+	//protos.NewCucrrencyClient()
 
 	// handlers for API
 	sm := mux.NewRouter()
