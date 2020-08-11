@@ -21,7 +21,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/SanjeVicor/RESTfulServices/data"
+	"github.com/SanjeVicor/Product-API/data"
 )
 
 // A list of products
@@ -32,6 +32,7 @@ type productsResponseWrapper struct {
 	Body []data.Product
 }
 
+// No content is returned by this API endpoint
 // swagger:response noContent
 type productsNoContent struct{}
 

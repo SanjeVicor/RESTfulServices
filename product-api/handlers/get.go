@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/SanjeVicor/RESTfulServices/data"
+	"github.com/SanjeVicor/Product-API/data"
 )
 
 // swagger:route GET /products products listProducts

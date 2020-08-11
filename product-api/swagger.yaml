@@ -41,19 +41,13 @@ paths:
     delete:
       description: Update a products details
       operationId: deleteProducts
-      responses:
-        "201":
-          $ref: '#/responses/noContentResponse'
-        "404":
-          $ref: '#/responses/errorResponse'
-        "501":
-          $ref: '#/responses/errorResponse'
       tags:
       - products
 produces:
 - application/json
 responses:
-  noContent: {}
+  noContent:
+    description: No content is returned by this API endpoint
   productsResponse:
     description: A list of products
     schema:
