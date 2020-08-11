@@ -8,8 +8,8 @@ import (
 	"os/signal"
 	"time"
 
-	protos "github.com/SanjeVicor/Product-API/protos/currency"
-	"github.com/SanjeVicor/Product-API/handlers"
+	protos "github.com/SanjeVicor/Product-API/CURRENCY/protos/currency"
+	"github.com/SanjeVicor/Product-API/product-api/handlers"
 	"github.com/go-openapi/runtime/middleware"
 	gohandlers "github.com/gorilla/handlers"
 

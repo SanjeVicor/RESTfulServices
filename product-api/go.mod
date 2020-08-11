@@ -1,4 +1,5 @@
-module github.com/SanjeVicor/Product-API
+module github.com/SanjeVicor/Product-API/product-api
+
 
 go 1.14
 

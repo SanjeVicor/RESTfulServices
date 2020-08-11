@@ -21,7 +21,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/SanjeVicor/Product-API/data"
+	"github.com/SanjeVicor/Product-API/product-api/data"
 )
 
 // A list of products

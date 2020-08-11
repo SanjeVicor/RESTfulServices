@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/SanjeVicor/Product-API/data"
+	"github.com/SanjeVicor/Product-API/product-api/data"
 	"github.com/gorilla/mux"
 )
 

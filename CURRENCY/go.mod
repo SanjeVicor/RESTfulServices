@@ -1,4 +1,5 @@
-module github.com/SanjeVicor/Product-API
+module github.com/SanjeVicor/Product-API/CURRENCY
+
 
 go 1.14
 
